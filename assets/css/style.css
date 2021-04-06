@@ -1,6 +1,11 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
     font-family: 'Helvetica', sans-serif;
     background-image: url('../images/Idea_1.png');
     background-size: cover;
@@ -64,12 +69,12 @@ button:hover {
 div {
     margin: 0 auto;
     justify-content: center;
-    z-index: 3;
+    /* z-index: 3; */
 }
 
-.title {
+.text-box {
     width: 20%;
-    margin-top: 10%;
+    margin-top: 15%;
     color: white;
     text-align: justify;
 }
@@ -82,5 +87,35 @@ div {
 
 iframe {
     display: block;
-    margin: 30px auto;
+    margin: 5% auto;
+}
+
+.container{
+    width: 100%;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.flex-item {
+    flex-basis: 100;
+}
+
+.social-icon{
+    width: 30px;
+    margin-top: 5%;
+}
+
+.footer {
+    color: white;
+    width: 100%;
+    background-color: black;
+    /* position: fixed;
+    bottom: 0%;
+    right: 0%; */
+}
+
+.footer > p {
+    margin: 5px 0;
 }
